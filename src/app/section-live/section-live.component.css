@@ -1,0 +1,52 @@
+:host{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.wrapper-video{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+::ng-deep .wrapper-carousel .container{
+  height: 340px !important;
+}
+
+
+::ng-deep .item-carousel{
+  opacity: .1 !important;
+  filter: blur(5px);
+  border: 1px solid black !important;
+  box-shadow: inset 0 0 20px black;
+  background-position: center;
+  background-size: cover;
+  background-image: url("https://static-cdn.jtvnw.net/previews-ttv/live_user_rickyedit-440x248.jpg");
+}
+
+::ng-deep .item-carousel.actual{
+  filter: blur(0px);
+  opacity: 1 !important;
+}
+
+.arrow-zone{
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  align-items: center;
+  align-content: center;
+  position: absolute;
+  width: 95%;
+  z-index: 1;
+}
+
+.arrow{
+  padding: .35rem;
+  cursor: pointer;
+  font-size: 1.5rem;
+  border-radius: var(--borderRadius);
+}
+
+.arrow:hover{
+  background-color: rgba(255,255,255,.2);
+}

@@ -1,0 +1,34 @@
+.wrapper-cover{
+  padding: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap:.5rem;
+}
+
+.cover{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  color: var(--textPrimary);
+  border-radius: var(--borderRadius);
+}
+
+.cover img{
+  width: 145px;
+  height: 180px;
+  object-fit: cover;
+}
+
+.cover .zone-title {
+  padding: .35rem 0;
+  font-size: 90%;
+  font-weight: 600;
+}
+
+
+.cover .sub-title-cover {
+  padding: .35rem 0;
+  font-size: 80%;
+  font-weight: 400;
+  opacity: .8;
+}

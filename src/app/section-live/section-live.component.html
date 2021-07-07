@@ -1,0 +1,18 @@
+<div class="wrapper-video">
+  <div class="arrow-zone">
+    <div class="arrow arrow-left" (click)="changeSlide(1)">
+      <i class="uil uil-angle-left-b"></i>
+    </div>
+    <div class="arrow arrow-right" (click)="changeSlide(-1)">
+      <i class="uil uil-angle-right-b"></i>
+    </div>
+  </div>
+
+
+  <carousel-component class="wrapper-carousel" [lockSlides]="true" #topCarousel1>
+    <div class="item-carousel" *ngFor="let a of [1]">
+      <app-video-player></app-video-player>
+    </div>
+  </carousel-component>
+
+</div>

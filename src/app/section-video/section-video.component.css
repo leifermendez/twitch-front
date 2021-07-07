@@ -1,0 +1,86 @@
+:host{
+  display: block;
+}
+
+.section-video{
+  /*background-color: red;*/
+  display: flex;
+  flex-wrap: wrap;
+  padding: .5rem;
+}
+
+.title{
+  margin: 0;
+  padding: 0 1rem;
+}
+
+.video-card{
+  background-image: url("https://static-cdn.jtvnw.net/previews-ttv/live_user_coolifegame-440x248.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 13rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  justify-content: space-between;
+  border-radius: var(--borderRadius);
+}
+
+.wrapper-card{
+  padding: .25rem
+}
+
+.badge-view{
+  background-color: var(--colorPrimary);
+  padding: 0 .25rem;
+  color: var(--textPrimary);
+  font-size: .75rem;
+  bottom: .5rem;
+  left: .5rem;
+  margin: .5rem;
+  width: fit-content;
+  border-radius: var(--borderRadius);
+}
+
+.badge-live{
+  background-color: var(--colorDanger);
+  padding: 0 .25rem;
+  color: var(--textPrimary);
+  font-size: .75rem;
+  bottom: .5rem;
+  left: .5rem;
+  margin: .5rem;
+  width: fit-content;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-radius: var(--borderRadius);
+}
+
+.user-zone{
+  display: flex;
+  padding: .5rem 0 ;
+  align-items: center;
+  align-content: center;
+}
+
+.user-zone .user-avatar{
+  width: 35px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.user-zone .user-title{
+
+}
+
+.user-zone .user-title .first-line{
+  margin-left: .5rem;
+  font-size: .9rem;
+}
+
+.user-zone .user-title .second-line{
+  margin-left: .5rem;
+  font-size: .75rem;
+}

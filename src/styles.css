@@ -1,0 +1,65 @@
+/*Global colors*/
+:root{
+  --colorPrimary:#18181B;
+  --colorSecondary:#772CE8;
+  --colorThird:#0E0E10;
+  --colorFourd:#464649;
+  --textPrimary:#fff;
+  --colorDanger:red;
+  --fontSizePrimary:1rem;
+  --fontSizeSecondary:1.2rem;
+  --borderRadius:.25rem;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: var(--colorThird);
+  color: var(--textPrimary);
+  font-family: 'Poppins', sans-serif;
+}
+
+
+.menu-src input::placeholder {
+  color: #c0c0c0;
+  font-weight: 500;
+}
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border-radius: var(--borderRadius);
+  border: 0;
+  height: 30px;
+  font-weight: 600;
+  letter-spacing: .5px;
+  cursor: pointer;
+}
+
+.btn-submit{
+  background-color: var(--colorSecondary);
+  color: var(--textPrimary);
+  padding: .35rem .5rem;
+  margin: 0 .35rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn-default{
+  background-color: var(--colorFourd);
+  color: var(--textPrimary);
+  padding: .35rem .5rem;
+  margin: 0 .35rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.d-flex{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
